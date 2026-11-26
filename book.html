@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book your service — SK Vehicle Maintenance</title>
+<meta name="description" content="Book your service at SK Vehicle Maintenance in under a minute. We'll confirm by WhatsApp.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <symbol id="icon-logbook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="1.5"/><path d="M8 3v18M9 8h8M9 12h8M9 16h5"/></symbol>
+  <symbol id="icon-oil" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3c3 3.5 5.5 7 5.5 10a5.5 5.5 0 1 1-11 0C6.5 10 9 6.5 12 3Z"/><path d="M9.5 15.5c0 1.4 1.1 2.5 2.5 2.5"/></symbol>
+  <symbol id="icon-brakes" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="3"/><path d="M12 3.5v3M12 17.5v3M20.5 12h-3M6.5 12h-3M18 6l-2 2M8 16l-2 2M18 18l-2-2M8 8 6 6"/></symbol>
+  <symbol id="icon-battery" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="8" width="16" height="10" rx="1.2"/><path d="M19 11h2v4h-2"/><path d="M8 8V6.5a1 1 0 0 1 1-1h1V4h4v1.5h1a1 1 0 0 1 1 1V8"/><path d="M8.5 13.5 10.5 11.5 12.5 13.5 14.5 11"/></symbol>
+  <symbol id="icon-tyres" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="2.4" fill="currentColor" stroke="none"/><path d="M12 6.2v2.4M12 15.4v2.4M17.8 12h-2.4M8.6 12H6.2M15.9 8.1l-1.7 1.7M9.8 14.2l-1.7 1.7M15.9 15.9l-1.7-1.7M9.8 9.8 8.1 8.1"/></symbol>
+  <symbol id="icon-diagnostic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="4" width="18" height="13" rx="1.2"/><path d="M6 20h12M12 17v3"/><path d="M6 12l2.5-4L11 13l2-6 2 5 2.5-3"/></symbol>
+  <symbol id="icon-ac" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3v18M4.5 7.5l15 9M19.5 7.5l-15 9"/><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="icon-inspect" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.3 15.3 21 21"/><path d="M8 10.5l1.8 1.8L13.5 8"/></symbol>
+  <symbol id="icon-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14.7 6.3a4 4 0 0 0-5.4 4.6L3 17.2l2.8 2.8 6.3-6.3a4 4 0 0 0 4.6-5.4l-2.6 2.6-2.1-.7-.7-2.1 2.6-2.6Z"/></symbol>
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24"><path d="M12 2.5c-5.2 0-9.5 4.2-9.5 9.5 0 1.7.4 3.3 1.3 4.7L2.5 21.5l4.9-1.3c1.4.7 2.9 1.1 4.6 1.1 5.2 0 9.5-4.2 9.5-9.5S17.2 2.5 12 2.5Zm5.5 13.4c-.2.6-1.3 1.2-1.8 1.3-.5.1-1 .1-3.3-.7-2.8-1-4.6-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.8 0-1.3.7-2 1-2.3.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5.2.6.8 2 .9 2.1.1.2.1.3 0 .5-.1.2-.2.3-.4.5-.2.2-.4.4-.5.6-.2.2-.3.4-.1.7.2.3.9 1.5 1.9 2.4 1.3 1.2 2.4 1.5 2.7 1.7.3.2.5.1.7-.1.2-.2.8-.9 1-1.3.2-.3.4-.3.7-.2.3.1 2 .9 2.3 1.1.3.2.5.3.6.4.1.2.1.9-.1 1.5Z"/></symbol>
+  <symbol id="icon-check-stamp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.5 9.5 17 19 6.5"/></symbol>
+  <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+  <symbol id="icon-x-stamp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+</svg>
+
+<header class="nav">
+  <div class="container">
+    <a class="nav-brand" href="index.html">
+      <img class="mark" src="assets/logo.svg" alt="">
+      <span class="nav-brand-text"><b data-brand-short>SK Vehicle</b><span>Maintenance</span></span>
+    </a>
+    <div class="nav-actions">
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="es">ES</button>
+      </div>
+      <a class="btn btn-ghost-light" href="index.html" data-i18n="back_to_site">Back to site</a>
+    </div>
+  </div>
+</header>
+
+<section class="book-header">
+  <div class="container">
+    <p class="eyebrow" data-i18n="book_eyebrow">Online booking</p>
+    <h1 data-i18n="book_h1">Book your service.</h1>
+    <p data-i18n="book_lede">Pick a service and a time that works. We'll confirm by WhatsApp.</p>
+
+    <div class="stepper" id="stepper">
+      <div class="stepper-item active" data-step-indicator="1">
+        <span class="stepper-num">1</span>
+        <span class="stepper-label" data-i18n="step1_label">Service</span>
+      </div>
+      <div class="stepper-item" data-step-indicator="2">
+        <span class="stepper-num">2</span>
+        <span class="stepper-label" data-i18n="step2_label">Time</span>
+      </div>
+      <div class="stepper-item" data-step-indicator="3">
+        <span class="stepper-num">3</span>
+        <span class="stepper-label" data-i18n="step3_label">Details</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<main>
+  <div class="container book-layout">
+    <div class="book-panel">
+
+      <!-- STEP 1: SERVICE -->
+      <div class="book-step active" data-step="1">
+        <h2 data-i18n="step1_h2">Choose your service</h2>
+        <p class="step-hint" data-i18n="step1_hint">Not sure? Pick "Diagnostic scan" and our team will guide you.</p>
+        <div class="svc-pick-grid" id="svcGrid"></div>
+        <div class="book-nav">
+          <span></span>
+          <button class="btn btn-primary" id="toStep2" disabled data-i18n="next">Continue</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: TIME -->
+      <div class="book-step" data-step="2">
+        <h2 data-i18n="step2_h2">Pick a time</h2>
+        <p class="step-hint" data-i18n="step2_hint">Times shown are workshop bays available for your selected service.</p>
+        <div class="date-row" id="dateRow"></div>
+        <div class="slot-legend">
+          <span><i class="i-avail"></i><span data-i18n="legend_available">Available</span></span>
+          <span><i class="i-sel"></i><span data-i18n="legend_selected">Selected</span></span>
+          <span><i class="i-booked"></i><span data-i18n="legend_booked">Booked</span></span>
+        </div>
+        <div class="slot-grid" id="slotGrid"></div>
+        <div class="book-nav">
+          <button class="btn btn-ghost-dark" id="toStep1" data-i18n="back">Back</button>
+          <button class="btn btn-primary" id="toStep3" disabled data-i18n="next">Continue</button>
+        </div>
+      </div>
+
+      <!-- STEP 3: DETAILS -->
+      <div class="book-step" data-step="3">
+        <h2 data-i18n="step3_h2">Your details</h2>
+        <p class="step-hint" data-i18n="step3_hint">We'll only use this to confirm and remind you about your booking.</p>
+        <div class="form-error" id="formError" role="alert" style="display:none;"></div>
+        <form id="detailsForm" novalidate>
+          <div class="form-grid">
+            <div class="field">
+              <label for="fName" data-i18n="label_name">Full name</label>
+              <input id="fName" name="name" type="text" autocomplete="name" required>
+              <span class="err" data-err-for="fName"></span>
+            </div>
+            <div class="field">
+              <label for="fPhone" data-i18n="label_phone">Mobile (for WhatsApp confirmation)</label>
+              <input id="fPhone" name="phone" type="tel" autocomplete="tel" required>
+              <span class="err" data-err-for="fPhone"></span>
+            </div>
+            <div class="field">
+              <label for="fEmail" data-i18n="label_email">Email (receipt &amp; inspection report)</label>
+              <input id="fEmail" name="email" type="email" autocomplete="email" required>
+              <span class="err" data-err-for="fEmail"></span>
+            </div>
+            <div class="field">
+              <label for="fVehicle" data-i18n="label_vehicle">Vehicle make &amp; model</label>
+              <input id="fVehicle" name="vehicle" type="text" required>
+              <span class="err" data-err-for="fVehicle"></span>
+            </div>
+            <div class="field">
+              <label for="fRego" data-i18n="label_rego">Rego</label>
+              <input id="fRego" name="rego" type="text" required>
+              <span class="err" data-err-for="fRego"></span>
+            </div>
+            <div class="field full">
+              <label for="fNotes" data-i18n="label_notes">Notes for the workshop (optional)</label>
+              <textarea id="fNotes" name="notes"></textarea>
+            </div>
+          </div>
+        </form>
+        <div class="book-nav">
+          <button class="btn btn-ghost-dark" id="toStep2b" data-i18n="back">Back</button>
+          <button class="btn btn-primary" id="submitBooking" data-i18n="confirm_booking">Confirm booking</button>
+        </div>
+        <p class="summary-note" style="text-align:center; margin-top:14px;" data-i18n="form_privacy">Your info stays private. No spam.</p>
+      </div>
+
+    </div>
+
+    <!-- SUMMARY TICKET -->
+    <aside class="summary-card">
+      <div class="ticket">
+        <div class="ticket-head">
+          <div class="ticket-id"><b id="sumTicketNo">SK-000</b> · <span data-i18n="summary_title">Your booking</span></div>
+          <span class="ticket-status" id="sumStatus" data-i18n="select_placeholder">—</span>
+        </div>
+        <div class="ticket-body-row"><span class="k" data-i18n="summary_service">Service</span><span class="v" id="sumService" data-i18n="select_placeholder">—</span></div>
+        <div class="ticket-body-row"><span class="k" data-i18n="summary_date">Date</span><span class="v" id="sumDate" data-i18n="select_placeholder">—</span></div>
+        <div class="ticket-body-row"><span class="k" data-i18n="summary_time">Time</span><span class="v" id="sumTime" data-i18n="select_placeholder">—</span></div>
+        <div class="ticket-body-row"><span class="k" data-i18n="summary_duration">Estimated duration</span><span class="v" id="sumDuration" data-i18n="select_placeholder">—</span></div>
+        <div class="summary-total">
+          <span class="k" data-i18n="summary_from">Estimated from</span>
+          <span class="v" id="sumPrice">—</span>
+        </div>
+        <p class="summary-note" data-i18n="summary_footnote">Final quote after inspection. No work without your approval.</p>
+      </div>
+
+      <div class="wa-note">
+        <p><b data-i18n="wa_prefer">Prefer WhatsApp?</b><br><span data-i18n="wa_chat">Chat with the team — we reply in minutes.</span></p>
+        <a href="#" data-wa-link target="_blank" rel="noopener" data-i18n="wa_open">Open WhatsApp</a>
+      </div>
+    </aside>
+  </div>
+</main>
+
+<!-- CONFIRMATION OVERLAY -->
+<div class="confirm-overlay" id="confirmOverlay" role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
+  <div class="confirm-card">
+    <div class="confirm-stamp" id="confirmStamp"><svg id="confirmStampIcon"><use href="#icon-clock"></use></svg></div>
+    <h2 id="confirmTitle" data-i18n="pending_title">Request sent</h2>
+    <p id="confirmBody" data-i18n="pending_body">Waiting for the workshop to confirm your booking — this page will update automatically.</p>
+    <div class="ticket confirm-ticket">
+      <div class="ticket-head">
+        <div class="ticket-id"><b id="cTicketNo">SK-000</b></div>
+        <span class="ticket-status" id="cStatusBadge">PENDING</span>
+      </div>
+      <div class="ticket-body-row"><span class="k" data-i18n="summary_service">Service</span><span class="v" id="cService">—</span></div>
+      <div class="ticket-body-row"><span class="k" data-i18n="summary_date">Date</span><span class="v" id="cWhen">—</span></div>
+      <div class="ticket-body-row"><span class="k" data-i18n="confirm_where">Where</span><span class="v" id="cWhere">—</span></div>
+    </div>
+    <div class="confirm-actions">
+      <a class="btn btn-primary" id="confirmWaBtn" href="#" target="_blank" rel="noopener" data-i18n="wa_open">Open WhatsApp</a>
+      <button class="btn btn-ghost-dark" id="pickAnotherBtn" style="display:none;" data-i18n="pick_another">Choose another time</button>
+      <a class="btn btn-ghost-dark" id="confirmDoneBtn" href="index.html" style="display:none;" data-i18n="done">Done</a>
+    </div>
+  </div>
+</div>
+
+<a class="wa-fab" href="#" data-wa-fab target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg><use href="#icon-whatsapp"></use></svg>
+</a>
+
+<script src="data/business.js"></script>
+<script src="js/config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/booking.js"></script>
+</body>
+</html>

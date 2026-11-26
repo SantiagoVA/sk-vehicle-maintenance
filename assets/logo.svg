@@ -1,0 +1,8 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="skLogoTitle">
+  <title id="skLogoTitle">SK Vehicle Maintenance mark</title>
+  <circle cx="32" cy="32" r="31" fill="#15171B" stroke="#F2A63D" stroke-width="2"/>
+  <path d="M20 40 L26 24 L30 24 L24 40 Z" fill="#F4F2ED"/>
+  <path d="M28 40 L34 24 L38.5 24 L31.5 32 L39 40 L34 40 L28.5 33.5 L26.5 40 Z" fill="#F4F2ED"/>
+  <circle cx="46" cy="20" r="5.5" fill="none" stroke="#2C6E68" stroke-width="2.4"/>
+  <path d="M46 14.2 v2.2 M46 23.6 v2.2 M40.2 20 h2.2 M49.6 20 h2.2 M42.1 15.9 l1.6 1.6 M48.3 22.5 l1.6 1.6 M42.1 24.1 l1.6 -1.6 M48.3 17.5 l1.6 -1.6" stroke="#2C6E68" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
